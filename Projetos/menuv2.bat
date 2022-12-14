@@ -35,10 +35,10 @@ echo.                                                      -
 echo.                                                      -
 echo.                                                      -
 echo -------------------------------------------------------
-echo --------------------by @MR.DANILO_:D-------------------
+echo --------------------by-------------------
 echo -------------------------------------------------------
 
-set /p op=DIGITE UMA OP«√O?
+set /p op=DIGITE UMA OP√á√ÉO?
 if %op% EQU 1 cls&GOTO 1
 if %op% EQU 2 cls&GOTO 2
 if %op% EQU 3 cls&GOTO 3
@@ -56,9 +56,9 @@ echo.
 echo -------------------------------------------------------
 echo.
 echo.
-set /p name= QUAL … O SEU NOME ?
+set /p name= QUAL √â O SEU NOME ?
 ECHO.
-set /p i= "EM QUE ANO VOC  NASCEU?"
+set /p i= "EM QUE ANO VOC√ä NASCEU?"
 set /a ID=2021-%i%
 IF %ID% GEQ 18 goto maior 
 IF %ID% LSS 18 goto menor
@@ -124,7 +124,7 @@ echo.
 echo.
 echo.
 echo.
-set /p R= PODEMOS COME«AR?(s/n) & echo.
+set /p R= PODEMOS COME√áAR?(s/n) & echo.
 IF %R% EQU S GOTO PARA R1
 if %R% equ n goto menu
 
@@ -187,7 +187,7 @@ echo.                                                      -
 echo.                                                      -
 echo.                                                      -
 echo.                                                      -
-set /p MU=DIGITE UMA OP«√O?
+set /p MU=DIGITE UMA OP√á√ÉO?
 if %MU% EQU 1 start https://www.youtube.com/watch?v=2Ry8ZiAsV8A & M1
 if %MU% EQU 2 start wmplayer.exe "c:\windows\media\onestop.mid"
 if %MU% EQU 3 cls&GOTO 3
